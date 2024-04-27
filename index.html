@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nya Nya Subscription Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <form id="subscriptionForm">
+    <h1>Order Nya Nya Subscription</h1>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <select id="subscriptionType">
+      <option value="bronze">Bronze Subscription (4.99$)</option>
+      <option value="silver">Silver Subscription (9.99$)</option>
+      <option value="gold">Gold Subscription (49.99$)</option>
+    </select>
+    <button type="submit">Subscribe</button>
+  </form>
+  <div id="loading" style="display:none;">Loading...</div>
+  <div id="thankYou" style="display:none;">Thank you for ordering the Nya Nya subscription!</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
